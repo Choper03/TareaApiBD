@@ -10,7 +10,7 @@ namespace TareaApi.Data
 {
     public class Conexion
     {
-        public static string DataConexion = "Data Source=DESKTOP-7VNTEB0\\SQLEXPRESS;Initial Catalog=APIDB;Integrated Security=True";
+        public static string DataConexion = "Data Source=DESKTOP-7VNTEB0\\SQLEXPRESS;Initial Catalog=PANADERIA;Integrated Security=True";
         public static DataSet ListarTablas(string nombreProcedimiento, List<Parametro> parametros = null)
         {
             SqlConnection conexion = new SqlConnection(DataConexion);

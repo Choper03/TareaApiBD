@@ -2,11 +2,11 @@
 {
     public class ListarPedido
     {
-        public string Producto { get; set; }
-        public decimal PrecioCosto { get; set; }
+        public string Factura { get; set; }
+        public string Descripcion { get; set; }
+        public int Precio { get; set; }
         public int Cantidad { get; set; }
         public string Total { get; set; }
-        public string Proveedor { get; set; }
-        public string Fecha { get; set; }
+        public DateTime Fecha { get; set; }
     }
 }
